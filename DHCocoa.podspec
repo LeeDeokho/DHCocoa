@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DHCocoa'
-  s.version          = '0.0.2'
+  s.version          = '0.0.5'
   s.summary          = 'For test DHCocoa' + s.version.to_s
   s.homepage         = 'https://github.com/LeeDeokho/DHCocoa'
   s.license          = {  :type => 'Apache License, Version 2.0', :text => <<-LICENSE
