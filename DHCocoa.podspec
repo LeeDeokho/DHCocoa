@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.pod_target_xcconfig = {'OTHER_LDFLAGS' => '-lObjC'}
+  s.user_target_xcconfig = {'OTHER_LDFLAGS' => '-lObjC' }
 
   s.ios.vendored_frameworks = s.name.to_s + '-' +  + s.version.to_s + '/Frameworks/TestFramework.framework'
 end
