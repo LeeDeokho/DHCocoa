@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DHCocoa'
-  s.version          = '0.0.8'
+  s.version          = '0.0.10'
   s.summary          = 'For test DHCocoa' + s.version.to_s
   s.homepage         = 'https://github.com/LeeDeokho/DHCocoa'
   s.license          = {  :type => 'Apache License, Version 2.0', :text => <<-LICENSE
@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.user_target_xcconfig = {'OTHER_LDFLAGS' => '-lObjC' }
-
-  s.frameworks = 'UIKit'
 
   s.ios.vendored_frameworks = s.name.to_s + '-' +  + s.version.to_s + '/Frameworks/TestFramework.framework'
 
