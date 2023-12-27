@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DHCocoa'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'For test DHCSDK' + s.version.to_s
   s.homepage         = 'https://github.com/LeeDeokho/DHCocoa'
   s.license          = {  :type => 'Apache License, Version 2.0', :text => <<-LICENSE
@@ -16,5 +16,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = {'OTHER_LDFLAGS' => '-lObjC' }
 
   s.ios.vendored_frameworks = s.name.to_s + '-' +  + s.version.to_s + '/Frameworks/DHSDK.xcframework'
+
+  s.resource = 'Resources/PrivacyInfo.xcprivacy'
 
 end
