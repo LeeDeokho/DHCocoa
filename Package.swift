@@ -16,8 +16,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
        .binaryTarget(
         name: "DHCocoa", 
-        path: "Frameworks/DHSDK.xcframework",
-        resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
-        ),
+        url: "https://github.com/LeeDeokho/DHCocoa/archive/1.3.0.zip",
+        checksum:"b69f6134076c89f25c96fdf35b18107839bbbb8e76d22670452692aea695c398"
+        )
     ]
 )
