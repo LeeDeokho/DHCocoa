@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = s.name.to_s + '-' +  + s.version.to_s + '/Frameworks/DHSDK.xcframework'
 
-  s.resource = 'Resources/PrivacyInfo.xcprivacy'
-
+  s.ios.resource = s.name.to_s + '-' +  + s.version.to_s + '/Resources/PrivacyInfo.xcprivacy'
+  
 end

@@ -17,7 +17,7 @@ let package = Package(
        .binaryTarget(
         name: "DHCocoa", 
         path: "Frameworks/DHSDK.xcframework",
-        resources: [.copy("Resources/PrivacyInfo.xcprivacy")]),
+        resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
         ),
     ]
 )
