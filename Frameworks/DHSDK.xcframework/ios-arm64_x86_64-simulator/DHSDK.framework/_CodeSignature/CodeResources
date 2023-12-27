@@ -4,62 +4,77 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/UIViewController+ObjcTest.h</key>
+		<key>Headers/DHSDK.h</key>
 		<data>
-		tS9v8Mnh0sOS2USyK29pKksX5jg=
+		RRWaRTk/a/pM5d8UPvynRWFEiQo=
 		</data>
-		<key>Headers/objcTest.h</key>
+		<key>Headers/NEClass.h</key>
 		<data>
-		4H0G6c/Icn9uCe9xGdPH2BZufw4=
+		rjjZ93UFNfKfcrmvtlGbH7Kp5pk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kf2NNCozF4XIeDCf84aiDlHtkqE=
+		x4ulvuzRwIYZJEgFiPMmSqm6HUA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		j8ZHz3upWluQyPn8J0LwsDVVwAc=
+		vQFaQWjlvKJtAc2qTf63VugZF9U=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		1RvdUK62J4/EQIpH9ztg/qh80qE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/UIViewController+ObjcTest.h</key>
+		<key>Headers/DHSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tS9v8Mnh0sOS2USyK29pKksX5jg=
+			RRWaRTk/a/pM5d8UPvynRWFEiQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			JThKEaxAEC6Hg0agO6JfY+8Dk0YgW6Njitkvv/B+3N4=
+			8Xb4jQnKdgQGIU8qKyi7fCOhhjr573xckNGM3axda6c=
 			</data>
 		</dict>
-		<key>Headers/objcTest.h</key>
+		<key>Headers/NEClass.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4H0G6c/Icn9uCe9xGdPH2BZufw4=
+			rjjZ93UFNfKfcrmvtlGbH7Kp5pk=
 			</data>
 			<key>hash2</key>
 			<data>
-			WFJGfhtbcdd43dpjHWGNaelCqnggoZFMfG+8oOuqMqQ=
+			ySiEmL9O44eeoqZeLAYBQ4NjRtZXKYrkDisLz+7Uv1E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j8ZHz3upWluQyPn8J0LwsDVVwAc=
+			vQFaQWjlvKJtAc2qTf63VugZF9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			6qn6XhGvojluqWF4CpJhzkuEIhcAq1M9e1mbQ7VhVnk=
+			aslFP/vZ4u8EaMsl6GV6gm16TYZXN9QDu/YTyd58Vvs=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1RvdUK62J4/EQIpH9ztg/qh80qE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZS89QSotmcljVVFkmyvqWeDO/nAheiAsX3vvpKqbnLs=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -90,24 +105,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -143,13 +146,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

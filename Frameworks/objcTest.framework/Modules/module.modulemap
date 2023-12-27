@@ -1,6 +1,0 @@
-framework module objcTest {
-  umbrella header "objcTest.h"
-
-  export *
-  module * { export * }
-}
